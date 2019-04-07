@@ -17,29 +17,25 @@ const App = () => (
 					<Container>
 						<Row>
 							<Col sm={8} md={7} className="py-4">
-								<h4 className="text-white">About</h4>
-								<p className="text-muted">
-									Add some information about the album below, the author, or any other background
-									context. Make it a few sentences long so folks can pick up some informative tidbits.
-									Then, link them off to some social networking sites or contact information.
-								</p>
+								<h4 className="text-white">책을 읽자</h4>
+								<p className="text-muted">책읽는 사람은 뭐가 되도 될것이다. -나폴레옹-</p>
 							</Col>
 							<Col sm={4} md={{ offset: 1 }} className="py-4">
-								<h4 className="text-white">Contact</h4>
+								<h4 className="text-white">심심하면 드루와</h4>
 								<ul className="list-unstyled">
 									<li>
 										<a href="#section" className="text-white">
-											Follow on Twitter
+											로그인
 										</a>
 									</li>
 									<li>
 										<a href="#section" className="text-white">
-											Like on Facebook
+											검색
 										</a>
 									</li>
 									<li>
 										<a href="#section" className="text-white">
-											Email me
+											어쩌구저쩌구
 										</a>
 									</li>
 								</ul>
@@ -61,16 +57,13 @@ const App = () => (
 			<Jumbotron className="text-center" style={{ backgroundColor: '#fff' }}>
 				<Container>
 					<h1 className="jumbotron-heading">책 예제</h1>
-					<p className="lead text-muted">
-						Something short and leading about the collection below—its contents, the creator, etc. Make it
-						short and sweet, but not too short so folks don’t simply skip over it entirely.
-					</p>
+					<p className="lead text-muted">안녕하세요 반가워요 영어로 welcome to korea bye</p>
 					<p>
 						<Button variant="primary" className="m-2 y-2">
-							Main call to action
+							뭐를 위한 클릭
 						</Button>
 						<Button variant="secondary" className="m-2 y-2">
-							Secondary action
+							뭐를 위한 클릭
 						</Button>
 					</p>
 				</Container>
@@ -81,12 +74,9 @@ const App = () => (
 						<Col md={4}>
 							<Card className="mb-4 shadow-sm">
 								<Card.Img variant="top" src={img} style={{ height: '500px' }} />
-								<Card.Body>
-									<Card.Title>Card Title</Card.Title>
-									<Card.Text>
-										Some quick example text to build on the card title and make up the bulk of the
-										card's content.
-									</Card.Text>
+								<Card.Body style={{ height: '200px' }}>
+									<Card.Title>맛있는 요구르트</Card.Title>
+									<Card.Text>일생을 요그르트만을 위해 희생한 희대의 살인마</Card.Text>
 									<div className="d-flex justify-content-between align-items-center">
 										<ButtonGroup>
 											<Button variant="outline-secondary" size="sm">
@@ -104,12 +94,9 @@ const App = () => (
 						<Col md={4}>
 							<Card className="mb-4 shadow-sm">
 								<Card.Img variant="top" src={img2} style={{ height: '500px' }} />
-								<Card.Body>
-									<Card.Title>Card Title</Card.Title>
-									<Card.Text>
-										Some quick example text to build on the card title and make up the bulk of the
-										card's content.
-									</Card.Text>
+								<Card.Body style={{ height: '200px' }}>
+									<Card.Title>교사는 왜쌀아</Card.Title>
+									<Card.Text>사람은 무엇을 위해 사는가 그 해답은 과연..</Card.Text>
 									<div className="d-flex justify-content-between align-items-center">
 										<ButtonGroup>
 											<Button variant="outline-secondary" size="sm">
@@ -131,41 +118,3 @@ const App = () => (
 	</Fragment>
 );
 export default App;
-
-{
-	/* <Navbar.Collapse>
-				<Container>
-					<Row />
-					<Col sm={8} md={7} className="py-4">
-						<h4 className="text-white">책을 읽고</h4>
-						<p className="text-muted ">
-							Add some information about the album below, the author, or any other background context.
-							Make it a few sentences long so folks can pick up some informative tidbits. Then, link them
-							off to some social networking sites or contact information.
-						</p>
-					</Col>
-					<Col sm={4} md={{ offset: 1 }} className="py-4">
-						<h4 className="text-white">Contact</h4>
-						<ul className="list-unstyled">
-							<li>
-								<a href="true" className="text-white">
-									Follow on Twitter
-								</a>
-							</li>
-							<li>
-								<a href="true" className="text-white">
-									Like on Facebook
-								</a>
-							</li>
-							<li>
-								<a href="true" className="text-white">
-									Email me
-								</a>
-							</li>
-						</ul>
-					</Col>
-				</Container>
-			</Navbar.Collapse>
-			<Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-			<Navbar.Toggle aria-controls="responsive-navbar-nav" /> */
-}
